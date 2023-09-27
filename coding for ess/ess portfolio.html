@@ -1,0 +1,72 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Ess</title>
+        <link rel="shortcut icon" href="Copy of struc (8).png" type="image/x-icon">  
+        <style media="screen">
+            body{
+                background: black;
+            }
+    .profile_{
+        width:70px;
+        border-radius: 50%;
+        position: absolute;
+        top:90%;
+        left:95%;
+        transform: translate(-50%,-50%);
+        padding: 8px;
+        background: linear-Gradient(135deg);
+        background-size: 250%;
+        background-position: 100% 100%;
+        transition: 0.5s;
+    }
+    .profile_:hover{
+        width: 120px;
+        height: 120px;
+    }
+    .thing{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .socials{
+        text-align: left; color: #022179; font-family: A2 beckett typeface;
+    }
+    .icons{
+        width: 20px;
+        height: 20px;
+        float: left;
+    }
+    .tooltip{
+        position: relative;
+    }
+    .tooltip:hover::after{
+        content: attr(data-tooltip);
+        background: #022179;
+        color: #fff;
+        padding: 5px;
+        font-size: 0.7em;
+        text-align: center;
+        position: absolute;
+        top: 90%;
+        width: 100px;
+        border-top-right-radius:30px;
+        border-bottom-left-radius:30px; 
+        border-bottom-right-radius:30px;
+        pointer-events: none;
+    }
+    </style>
+    </head>
+<body>
+<h1 style="font-family: A2 beckett typeface; color: #022179; text-align: center; font-size:400%;">ESS</h1>
+<br><br>
+ <video width="576" height="322" autoplay muted controls class="thing" >
+    <source src="ess.mp4" type="video/mp4" >
+</video> 
+<h1 style="font-size: 300%;" class="socials">Socials</h1>
+<a href="https://www.linkedin.com/in/esraa-mokhtar-817b36b1" title="Linked in" target="_blank" style="text-decoration: none;"><img src="linked in icon.png" class="icons"><h2 class="socials tooltip" data-tooltip="Linked in profile">Linked in</h2></a>
+<img src="GMAIL icon.png" class="icons"><h2 class="socials">GMAIL esso29dat@gmail.com</h2>
+<img src="phone icon.png" class="icons"><h2 class="socials">Mobile number 01062602578</h2> 
+<img src="Copy of struc (8).png" class="profile_">    
+</body>
+</html>
